@@ -1,0 +1,29 @@
+.section2 {
+  padding: 1.5em;
+  background-color: #f1e6d8;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  width: 110em;
+}
+
+.catalog-item {
+  padding: 10em;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.catalog-item:hover {
+  transform: scale(1.05);
+}
+
+.catalog-item img {
+  width: 20em;
+  height: auto;
+  display: flex;
+}

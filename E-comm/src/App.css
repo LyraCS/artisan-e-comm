@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  color: #888;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.navbar-icons i {
+  cursor: pointer;
+}
+
+.navbar-button {
+  padding: 10px 20px;
+  border: 1px solid #d3b1b1;
+  border-radius: 50px;
+  background-color: #f8eaea;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  background-color: #f0d8d8;
+}
+
+.section1 {
+  position: relative;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the top */
+  background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.search-box {
+  margin-top: 20px; /* Space from the top */
+  text-align: center;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 300px; /* Width of the search box */
+  border: 1px solid #ccc; /* Border for the search box */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.chat-box {
+  position: absolute;
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+}
+
+.chat-box button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Pointer on hover */
+}
+
+.chat-box button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* For responsive mobile view */
+@media (max-width: 768px) {
+  .navbar-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
