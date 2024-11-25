@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.sect1 {
+  background-color: #6c6c6c;
+  color: white;
+  text-align: center;
+  padding: 150px 150px;
+}
+.sect1 h1 {
+  margin: 0;
+  font-size: 36px;
+}
+.sect1 p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.sect2 {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+.contact-info div {
+  text-align: center;
+}
+.contact-info i {
+  font-size: 36px;
+  color: #334343;
+}
+.contact-info h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+.feedback {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.feedback .form-container {
+  max-width: 600px;
+  width: 100%;
+}
+.feedback h2 {
+  font-size: 24px;
+  color: #2d2d2d;
+}
+.feedback p {
+  font-size: 14px;
+  color: #2d2d2d;
+}
+.feedback form {
+  margin-top: 20px;
+}
+.feedback form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #334343;
+}
+.feedback form input,
+.feedback form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.feedback form button {
+  padding: 10px 20px;
+  background-color: #334343;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.feedback form button:hover {
+  background-color: #444;
+}
+.feedback .image-placeholder {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  background-color: #ccc;
+  margin-right: 40px;
+}

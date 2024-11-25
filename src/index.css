@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section1 {
+  height: 100vh;
+  background-color: #2f4545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f0e1;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.section2 {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #2f4545;
+}
+
+.section2 .content {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.section2 .text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.section2 .carousel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.section2 .carousel img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.section3 {
+  background-color: #f5f0e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+  min-height: 100vh;
+}
+
+.section3 .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.section3 .gallery .left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section3 .gallery .left-column img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section3 .gallery .middle-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section3 .gallery .middle-column img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section3 .gallery .right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section3 .gallery .right-column img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button {
+  position: fixed;
+  bottom: 20px;
+  background-color: #f5f0e1;
+  color: #2f4545;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.shop-now {
+  left: 20px;
+}
+
+.chat-us {
+  right: 20px;
+}
+
+.chat-us i {
+  margin-right: 10px;
+}

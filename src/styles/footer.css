@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2f3e3e;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.combined-footer {
+  background-color: #2f3e3e;
+  color: #ffffff;
+}
+
+.top-bar {
+  background-color: #2f3e3e;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.top-bar div {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.top-bar i {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 40px 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.footer .column {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 40px;
+  text-align: left;
+}
+
+.footer .column h3 {
+  color: #f4a950;
+  margin-bottom: 20px;
+}
+
+.footer .column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .column ul li {
+  margin-bottom: 10px;
+}
+
+.footer .newsletter input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.footer .newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f4a950;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer .social-icons {
+  padding-top: 20px;
+}
+
+.footer .social-icons a {
+  color: #f4a950;
+  margin: 0 5px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  margin-top: 40px;
+  color: #b0b0b0;
+  text-align: center;
+}
