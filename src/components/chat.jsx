@@ -1,11 +1,11 @@
 import React from "react";
-import "../index.css";
+import ChatBox from "./chatbot";
 
 const Chat = () => {
   return (
-    <button className="button chat-us">
-      <i className="fas fa-comment"></i> Chat Us
-    </button>
+    <div>
+      <ChatBox />
+    </div>
   );
 };
 
